@@ -73,6 +73,7 @@
             ],
             "problemMatcher": "$msCompile"
         },
+        
         {
             "label": "build-articulate-unit02",
             "command": "dotnet",
@@ -193,6 +194,20 @@
             ],
             "problemMatcher": "$msCompile"
         },
+        
+        {
+            "label": "build-developer-unit01",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/developer/Unit01/Unit01.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+
         {
             "label": "build-developer-unit02",
             "command": "dotnet",
