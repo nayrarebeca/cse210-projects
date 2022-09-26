@@ -193,6 +193,20 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
+        {
+            "name": "Developer - Unit01 (Tic Tac Toe)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-developer-unit01",
+            "program": "${workspaceFolder}/developer/Unit01/bin/Debug/net6.0/Unit01.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/developer/Unit01",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
         {
             "name": "Developer - Unit02 (Hilo)",
             "type": "coreclr",
